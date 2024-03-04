@@ -1,0 +1,80 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(119, 158, 171);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.empl{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, footer {
+    background-color: rgb(22, 35, 35);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding: 1px;
+    position: fixed; /* Change position to fixed */
+    left: 0; /* Add left and right properties */
+    right: 0;
+    top: 0; /* Add top property */
+    z-index: 1000; /* Add z-index to ensure it's above other content */
+}
+
+
+
+.navitem{
+    display: inline ;
+    padding: 25px;
+}
+
+.navitem a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.table{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse ;
+
+th,td{
+    border: 1px solid rgb(22, 35, 35) 
+
+}  
+
+
+}
+
+.employeetable{
+    text-align: center;
+}
+
+.contactus{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.map{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;   
+    left: 370px;
+}
+
+.img{
+    padding-top: 65px;
+    
+    left: 0;
+    right: 0;
+    top: auto;
+width: 1300px;
+}
